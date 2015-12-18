@@ -7,7 +7,8 @@ class UserServiceSpec extends Specification {
 
   val service = Injector.inject[UserService]
 
-  "UserService" should{
+  tag("unit")
+  "UserService" should {
     "return foo" in {
       service.foo mustEqual "foo"
     }
