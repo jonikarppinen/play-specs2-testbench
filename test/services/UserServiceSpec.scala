@@ -1,6 +1,7 @@
 package services
 
 import testhelpers.Injector
+import org.specs2.mutable.Specification
 
 class UserServiceSpec extends Specification {
 
